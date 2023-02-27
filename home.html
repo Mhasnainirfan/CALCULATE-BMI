@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+
+        let weight = prompt("ENTER YOUR WEIGHT")
+        let height = prompt("ENTER YOUR HEIGHT")
+
+
+        if (weight <= 18.5 && height >= 5) {
+            alert("YOU ARE UNDERWEIGHT");
+        }else if (weight >= 18.5 && weight<=24.9 && height >=5) {
+            alert("YOU ARE NORMAL WEIGHT");
+        }else if (weight >= 25 && weight<=29.9) {
+            alert("YOU ARE OVERWEIGHT");
+            alert("YOU NEED TO LOSE 10KG TO COME NORMAL")
+        }else if (weight >= 30 && weight<=39.9) {
+            alert("YOU ARE OBESE");
+            alert("YOU NEED TO LOSE 7KG TO COME NORMAL")
+        }else if (weight >= 40) {
+            alert("YOU ARE EXTREMELY OBESE");
+            alert("YOU NEED TO LOSE 15KG TO COME NORMAL")
+        }
+    </script>
+</body>
+</html>
